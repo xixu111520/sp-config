@@ -1,6 +1,9 @@
 spring:
   application:
     name: order-service
+  cloud: 
+      config: 
+        overwide-none: true
     
 server:
   port: 8201

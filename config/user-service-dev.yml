@@ -5,6 +5,9 @@ sp:
 spring:
   application:
     name: user-service
+  cloud: 
+    config: 
+      overwide-none: true
     
 server:
   port: 8101
